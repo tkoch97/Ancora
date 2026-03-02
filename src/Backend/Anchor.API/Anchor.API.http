@@ -1,0 +1,6 @@
+@Anchor.API_HostAddress = http://localhost:5293
+
+GET {{Anchor.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
