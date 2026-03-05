@@ -8,6 +8,7 @@ namespace Anchor.Domain.Entities
         public int Chapter { get; set; }
         public int VerseStart { get; set; }
         public int? VerseEnd { get; set; }
+        public string Reference => VerseEnd == null ? $"{Book} {Chapter}:{VerseStart}" : $"{Book} {Chapter}:{VerseStart}-{VerseEnd}";
         public List<EmotionScripture> EmotionScriptures { get; set; } = [];
     }
 }
