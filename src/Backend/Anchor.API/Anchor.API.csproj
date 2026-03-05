@@ -22,6 +22,7 @@
     <ProjectReference Include="..\..\Shared\Anchor.Communication\Anchor.Communication.csproj" />
     <ProjectReference Include="..\..\Shared\Anchor.Exceptions\Anchor.Exceptions.csproj" />
     <ProjectReference Include="..\Anchor.Application\Anchor.Application.csproj" />
+    <ProjectReference Include="Anchor.Infrastructure\Anchor.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
